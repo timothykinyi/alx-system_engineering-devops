@@ -1,2 +1,2 @@
 #!/bin/bash
-/tmp/correction/665395FZP5Q7KyLRJF7pRaiT5XQk2iVLou6u8413_5/205/419721/0x00-shell_basics
+cwd=$(realpath "$PWD") echo "$cwd"
