@@ -1,2 +1,2 @@
 #!/bin/bash
-me=$(pwd) echo "$me"
+me=$(pwd) echo "$me" chmod +x 0-current_working_directory
