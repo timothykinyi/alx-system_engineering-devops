@@ -1,2 +1,2 @@
 #!/bin/bash
-me=$(pwd) echo "$me"/tmp/correction/4747695423947awWGx7TYdc4xNogTDSS4zRd2j6qf65_5/205/419721/0x00-shell_basics
+me=$(pwd) echo $me
