@@ -1,2 +1,2 @@
 #!/bin/bash
-me=$(pwd) echo /tmp/correction/8562327Mhva3gubsbSpZig59A1h3L1xa5vbCB896_5/205/419721/0x00-shell_basics
+current_dir=$(pwd) echo "Current working directory: $current_dir"
