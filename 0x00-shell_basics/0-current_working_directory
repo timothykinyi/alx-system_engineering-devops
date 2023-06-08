@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/tmp/correction/9480396431187472374590092442911139722162_5/205/419721/0x00-shell_basics"
+me=$(pwd) echo "$me"
