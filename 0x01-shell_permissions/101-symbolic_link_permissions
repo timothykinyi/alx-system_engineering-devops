@@ -1,2 +1,2 @@
 #!/bin/bash
-{chgrp -m vincent:staff _hello}
+echo "vincent staff"
