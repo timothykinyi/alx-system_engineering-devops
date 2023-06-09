@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pd * | sort -d -f -k1.2 | tr '\n' ','
+ls -pd --format=commas --group-directories-first | tr -d '\n'
