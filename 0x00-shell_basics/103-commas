@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m
+find . -maxdepth 1 -type d -exec ln -s "{}" "{}"/ \; -o -printf "%f,"
