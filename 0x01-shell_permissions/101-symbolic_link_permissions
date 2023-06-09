@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "vincent staff"
+chown staff _hello chgrp vincent _hello
