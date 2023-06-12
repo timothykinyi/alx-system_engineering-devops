@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'Ac' 'Ze'
+sed 's/[Ac]/Z/gI' | sed 's/c/e/gI'
