@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F: '{printf "User: %s\tHome Directory: %s\n", $1, $6}' /etc/passwd | sort -k2
+paste -d $'\t' <(cut -d ':' -f 1 /etc/passwd) <(cut -d ':' -f 6 /etc/passwd) | sort -k2
