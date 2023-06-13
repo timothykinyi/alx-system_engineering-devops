@@ -1,2 +1,2 @@
 #!/bin/bash
-echo patse d, . . | cut -d, -f1
+echo"$(( patse d, . . | cut -d, -f1))"
