@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "\ls -1" | cut -d, -f1
+echo patse d, . . | cut -d, -f1
