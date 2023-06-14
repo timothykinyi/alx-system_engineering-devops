@@ -1,2 +1,2 @@
 #!/bin/bash
-print('\n'.join([line for i, line in enumerate(iter(input, '')) if i % 2 == 0]))
+paste - - | cut -f1
