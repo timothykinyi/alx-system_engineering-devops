@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  export BESTCHOL = $(($STIR + $WATER))
+echo " export BESTCHOL = $(($STIR + $WATER))"
